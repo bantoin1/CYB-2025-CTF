@@ -27,22 +27,10 @@ Can you solve the puzzle and retrieve the flag?
 
 2. Open the `.pcap` file in Wireshark and analyze it to identify the website mentioned in the captured traffic.
 
-3. Access the identified website and inspect the `index.html` and `encryptDecrypt.js` files.
+3. Access the identified website and inspect the `index.html`page.
 
-4. Examine the JavaScript code. Pay close attention to:
-    - The encrypted message
-    - The secret key
-    - The username and password validation
+4. Submit the flag in the format: `flag{your-answer}`.
 
-5. Reverse the encryption logic or find the correct credentials to decrypt the flag.
-
-6. Submit the flag in the format: `flag{your-answer}`.
-
-## Flag Example
-Once you solve the challenge, the decrypted flag will look like:
-```
-flag{good-job-this-was-easy}
-```
 
 ## Tools and Techniques
 You may use:
@@ -53,9 +41,9 @@ You may use:
 
 ## Hints
 - Look for HTTP or HTTPS traffic in the `.pcap` file to uncover the website address.
-- Examine how the `CryptoJS` library handles encryption and decryption in `encryptDecrypt.js`.
+- Examine the JavaScript code. Pay close attention to:
+    - The encrypted message
+    - The secret key
+    - The username and password validation
+- Reverse the encryption logic or find the correct credentials to decrypt the flag.
 - Don't overlook the username and password validation logic.
-
----
-
-This updated version adds a forensic twist by incorporating the `.pcap` file into the narrative. It should make the challenge more engaging! Let me know if you'd like further changes or additions.
