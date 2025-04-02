@@ -1,8 +1,3 @@
-# CYB-2025-CTF
-Here’s an updated version of your CTF README incorporating the Wireshark `.pcap` file for extra intrigue:
-
----
-
 # Welcome to the "Login Logic Challenge" CTF!
 
 ## Challenge Overview
