@@ -36,7 +36,7 @@ You may use:
 - A text editor to analyze the logic in the files.
 
 ## Hints
-- Look for HTTP or HTTPS traffic in the `.pcap` file to uncover the website address.
+- The Website is hosted in azure. 
 - Examine the JavaScript code. Pay close attention to:
     - The encrypted message
     - The secret key
