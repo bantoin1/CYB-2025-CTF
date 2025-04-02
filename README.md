@@ -21,10 +21,6 @@ Can you solve the puzzle and retrieve the flag?
 ## Instructions
 1. Download the challenge files:
     - `capture.pcap` (The Wireshark capture file)
-    - `index.html` (The login page HTML)
-    - `encryptDecrypt.js` (Contains the JavaScript logic and encrypted flag)
-    - `styles.css` (Optional: Adds a visual touch to the login page)
-
 2. Open the `.pcap` file in Wireshark and analyze it to identify the website mentioned in the captured traffic.
 
 3. Access the identified website and inspect the `index.html`page.
