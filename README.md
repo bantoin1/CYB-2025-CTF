@@ -20,7 +20,7 @@ Can you solve the puzzle and retrieve the flag?
 
 ## Instructions
 1. Download the challenge files:
-    - `capture.pcap` (The Wireshark capture file)
+    - `https://github.com/bantoin1/CYB-2025-CTF/blob/main/ctfchallenge.pcapng` (The Wireshark capture file)
 2. Open the `.pcap` file in Wireshark and analyze it to identify the website mentioned in the captured traffic.
 
 3. Access the identified website and inspect the `index.html`page.
